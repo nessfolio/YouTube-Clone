@@ -6,7 +6,7 @@ import searchIcon from '../../assets/search.png'
 import uploadIcon from '../../assets/upload.png'
 import moreIcon from '../../assets/more.png'
 import notificationIcon from '../../assets/notification.png'
-import profileIcon from '../../assets/jack.png'
+import userIcon from '../../assets/jack.png'
 
 const Navbar = () => {
   return (
@@ -25,7 +25,7 @@ const Navbar = () => {
           <img src={uploadIcon} alt="Upload Icon" />
           <img src={moreIcon} alt="More Icon" />
           <img src={notificationIcon} alt="Notification Icon" />
-          <img src={profileIcon} alt="Profile Icon" />
+          <img src={userIcon} className='user-icon' alt="User Icon" />
         </div>
     </nav>
   )
